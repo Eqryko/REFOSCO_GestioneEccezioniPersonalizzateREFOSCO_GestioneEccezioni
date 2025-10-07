@@ -42,9 +42,9 @@ public class Main {
             System.out.println("Distanza tra le due date: " + diff + " giorni.");
 
         } catch (DataException e) {
-            System.out.println("⚠️ Errore: " + e.getMessage());
+            System.out.println("Errore: " + e.getMessage());
         } catch (Exception e) {
-            System.out.println("⚠️ Errore generico: " + e.getMessage());
+            System.out.println("Errore generico: " + e.getMessage());
         }
     }
 }
